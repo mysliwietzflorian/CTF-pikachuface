@@ -1,0 +1,23 @@
+# ignore all generated files in these folders
+
+01_preparation/*
+!01_preparation/.gitkeep
+
+02_pixels_per_image/*
+!02_pixels_per_image/.gitkeep
+
+03_transformed_image_pixels/*
+!03_transformed_image_pixels/.gitkeep
+
+04_filter_images/*
+!04_filter_images/.gitkeep
+
+05_A_generate_image/*
+!05_A_generate_image/.gitkeep
+
+05_B_generate_image/*
+!05_B_generate_image/.gitkeep
+
+# ignore too large files for remote repository
+00_specification/pikachuface.svg
+cache/01_all_query_entries.txt
