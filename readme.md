@@ -10,13 +10,27 @@ Hint: The solution starts with `CSR{` and ends with `}`.
 
 Good luck.
 
-## Notes for the solution script
+## Solution
+
+Run `./solution.sh` to step through a possible solution path.  
+
+### Dependencies
+
+- Linux environment
+- `00_specification/pikachuface.svg` must be decompressed before
+- [github.com/paxtonhare/demo-magic](https://github.com/paxtonhare/demo-magic)
+  is part of the repository
+- `pv` (pipe viewer) must be installed
+- `zstd` can be used to decompress the specification file
+
+### Further notes
 
 As the remote repository does not allow files bigger than 100 MB in size, two
 files had to be removed from the repo:
 
 `00_specification/pikachuface.svg`:
-- This file can be decompressed from *.svg.zst.
+- This file can be decompressed from *.svg.zst. You can use the `zstd` library
+  to accomplish this.
 
 `cache/01_all_query_entries.txt`:
 - This file lists all possible entries of media queries from the specification
